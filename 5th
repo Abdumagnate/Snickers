@@ -1,0 +1,34 @@
+//Abdumagnate
+import java.util.Scanner;
+public class Main
+
+{
+  public static void main(String args[]){
+   
+    Scanner a=new Scanner(System.in);
+    int x;
+    int y;
+    System.out.println("PLZ enter 1st #");
+    x=a.nextInt();
+    
+    
+    System.out.println("A= "+x);
+    System.out.println("PLZ enter 2st #");
+    Scanner b=new Scanner(System.in);
+    y=b.nextInt();
+    System.out.println("B= "+y);
+    
+    
+    int C;
+    
+    C=x*y;
+    
+    System.out.println(x+"*"+y+"="+C);
+    
+    
+    
+    
+    
+    
+  }
+}
